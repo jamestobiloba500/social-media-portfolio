@@ -103,28 +103,32 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        I’m a results-driven Social Media Manager with strong creative and technical skills.
+        I help brands communicate clearly, grow consistently, and convert attention into
+        measurable outcomes using strategy, design, video, and paid advertising.
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Client Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Koinonia Consult",
+        timeframe: "2024 – Present",
+        role: "Social Media Manager",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Planned and designed educational content around Data Governance and Data Management.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Improved brand consistency and audience engagement through structured content strategy.
+          </>,
+          <>
+            Run Advertisements that draws Traffic and boost brand visibility.
+          </>,
+          <>
+            Worked on Faceless Videos using Story telling to draw viewrs attention and create expectation for weekly posts.
           </>,
         ],
         images: [
@@ -138,17 +142,31 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Victory Assembly Sheffield",
+        timeframe: "2024 – Present",
+        role: "Creative Designer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Designed church flyers, service promotions, and social media visuals.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Maintained brand clarity across digital platforms.
+          </>,
+        ],
+        images: [],
+      },
+    ],
+  },
+  {
+  company: "Naija Wear Hub",
+        timeframe: "2024 – Present",
+        role: "Creative & Ads Support",
+        achievements: [
+          <>
+            Created fashion visuals and promotional graphics.
+          </>,
+          <>
+            Supported traffic and sales through ad creatives.
           </>,
         ],
         images: [],
@@ -160,28 +178,28 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "D'cious Academy Skill Hub (DASH)",
+        description: <>Studied Social Media Management.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Edexcel University",
+        description: <>Studied Computer Science.</>,
       },
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Core Skills",
     skills: [
       {
-        title: "Figma",
+        title: "Social Media Management",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Content planning | Posting | Analytics | and Audience Growth.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "Strategy",
+            icon: "grid",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -201,14 +219,43 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Motion Design & Video",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Faceless reels, motion graphics, and short-form video editing.</>
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "motion",
+            icon: "play",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+          {
+            name: "Supabase",
+            icon: "supabase",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Design & Ads",
+        description: (
+          <>High-quality graphics and performance-driven ad creatives.</>
+        ),
+        tags: [
+          {
+            name: "Design",
+            icon: "figma",
           },
           {
             name: "Next.js",
