@@ -1,4 +1,4 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import { About, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
@@ -44,7 +44,7 @@ const social: Social = [
     name: "Threads",
     icon: "threads",
     link: "https://www.threads.com/@once_ui",
-    essential: true,
+    essential: false,
   },
   {
     name: "Email",
@@ -278,14 +278,14 @@ const about: About = {
   },
 };
 
-const blog: Blog = {
-  path: "/blog",
-  label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
-};
+// const blog: Blog = {
+//   path: "/blog",
+//   label: "Blog",
+//   title: "Writing about design and tech...",
+//   description: `Read what ${person.name} has been up to recently`,
+//   // Create new blog posts by adding a new .mdx file to app/blog/posts
+//   // All posts will be listed on the /blog route
+// };
 
 const work: Work = {
   path: "/work",
@@ -347,4 +347,4 @@ const gallery: Gallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, Newsletter, social, home, about, work, gallery };
