@@ -1,4 +1,4 @@
-import { About, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import { About, Gallery, Home, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
@@ -12,11 +12,11 @@ const person: Person = {
   languages: ["English", ""], // optional: Leave the array empty if you don't want to display languages
 };
 
-const newsletter: Newsletter = {
-  display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: <>Insights on social media growth, creativity, and digital strategy</>,
-};
+// const newsletter: Newsletter = {
+//   display: true,
+//   title: <>Subscribe to {person.firstName}'s Newsletter</>,
+//   description: <>Insights on social media growth, creativity, and digital strategy</>,
+// };
 
 const social: Social = [
   // Links are automatically displayed.
@@ -227,12 +227,12 @@ const about: About = {
             icon: "play",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "After Effects",
+            icon: "film",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Cap Cut",
+            icon: "Play",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -256,12 +256,12 @@ const about: About = {
             icon: "figma",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Photoshop",
+            icon: "image",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Canva",
+            icon: "pen-tool",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -347,4 +347,4 @@ const gallery: Gallery = {
   ],
 };
 
-export { person, Newsletter, social, home, about, work, gallery };
+export { person, social, home, about, work, gallery };
