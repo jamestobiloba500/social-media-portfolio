@@ -6,7 +6,7 @@ const person: Person = {
   lastName: "Emmanuel Tobi",
   name: `James E. Tobi`,
   role: "Social Media Manager & Creative Strategist",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/IMG_3647_082846.jpg",
   email: "jamestobiloba500@gmail.com",
   location: "Africa/Lagos", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", ""], // optional: Leave the array empty if you don't want to display languages
@@ -77,7 +77,7 @@ const home: Home = {
   subline: (
     <>
     I'm James E. Tobi, a Social Media Manager and Creative Strategist. I specialize in <Text as="span" weight="strong">faceless reels</Text>, motion design, high-quality visuals,  
-      and ad creatives that drive traffic and sales.
+      and creative Ads that drive traffic and sales.
 </>
   ),
 };
